@@ -45,6 +45,7 @@ class Song
     instance = self.new
     instance.name = (song_name.split("-")[1].chomp(".mp3"))
     instance.artist_name = (song_name.split("-")[0])
+    return instance
   end
 
   def self.create_from_filename(song_name)
