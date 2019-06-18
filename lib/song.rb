@@ -27,7 +27,6 @@ class Song
     instance.name = song_name
     instance.save
     return instance
-
   end
 
 end
