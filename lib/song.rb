@@ -13,7 +13,7 @@ class Song
   def self.create
     instance = self.new
     instance.save
-    
+    return instance
   end
 
 end
