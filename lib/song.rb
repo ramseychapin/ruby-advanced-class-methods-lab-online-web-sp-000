@@ -46,7 +46,7 @@ class Song
     artist_name_string = song_name.split("-")[0]
 
     instance = self.new
-    instance.name = name_string.chomp
+    instance.name = name_string
     instance.artist_name = artist_name_string
     return instance
   end
@@ -56,7 +56,7 @@ class Song
     artist_name_string = song_name.split("-")[0]
 
     instance = self.new
-    instance.name = name_string.chomp
+    instance.name = name_string
     instance.artist_name = artist_name_string
     @@all << instance
     return instance
